@@ -1,0 +1,29 @@
+{
+  "name": "webpack-learning_weather-api",
+  "version": "1.0.0",
+  "description": "Weathrly é um projeto front-end que exibe previsões do tempo em tempo real utilizando a Weather API. Desenvolvido com foco em modularidade e desempenho, utilizando Webpack para empacotamento e otimização do código.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alicelspires/Webpack-Learning_Weather-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alicelspires/Webpack-Learning_Weather-API/issues"
+  },
+  "homepage": "https://github.com/Alicelspires/Webpack-Learning_Weather-API#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}

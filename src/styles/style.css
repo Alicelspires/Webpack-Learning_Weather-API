@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Inria Sans", sans-serif;
+}
+
+:root{
+    --font-white: #ffffff;
+    --bg-side: rgb(133, 133, 133, .42);
+    --border-bottom-line:1px solid #ffffff85;
+}
+
+body{
+    display: flex;
+    background-image: url('../assets/img/img-rainy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    color:var(--font-white);
+}
+#main-screen{
+    padding:20px;
+    box-sizing: border-box;
+    display:flex;
+    width:100%;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+#main-forecast{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+#main-forecast h1{
+    font-size:5.5rem
+}
+#main-forecast span{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+} 
+#main-forecast span h2{
+    font-size: 2rem;
+}
+.info-forecast-icon{
+    text-align: center;
+}
+.info-forecast-icon i{
+    font-size:2.6rem;
+}
