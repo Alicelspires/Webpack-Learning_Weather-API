@@ -1,5 +1,5 @@
 # Webpack Learning - Weather forecast
-Weathrly is a responsive front-end application that displays accurate, real-time weather forecasts using the <a href="https://www.visualcrossing.com/weather-api/"> Visual Crossing Weather API</a>. Developed with a focus on modular architecture and optimal performance, the project uses modern Webpack configurations for efficient code bundling and optimization.
+Weather forecast is a responsive front-end application that displays accurate, real-time weather forecasts using the <a href="https://www.visualcrossing.com/weather-api/"> Visual Crossing Weather API</a>. Developed with a focus on modular architecture and optimal performance, the project uses modern Webpack configurations for efficient code bundling and optimization.
 
 Link: https://alicelspires.github.io/Webpack-Learning_Weather-API/
 
